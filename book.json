@@ -1,0 +1,93 @@
+{
+  "gitbook": "3.2.3",
+  "title": "Web前端规范",
+  "description": "Web前端开发规范",
+  "author": "stanyan",
+  "language": "zh-hans",
+  "links":{
+    "sidebar":{
+      "Home":"http://stavtop.club/"
+    }
+  },
+  "plugins":[
+    "-lunr",
+    "-search",
+    "-livereload",
+    "splitter",
+    "anchor-navigation-ex@0.1.8",
+    "-sharing",
+    "sharing-plus",
+    "-donate",
+    "search-plus",
+    "github",
+    "advanced-emoji",
+    "anchors",
+    "splitter",
+    "tbfed-pagefooter",
+    "expandable-chapters-small",
+    "sectionx",
+    "local-video",
+    "favicon",
+    "prism",
+    "simple-page-toc",
+    "anchors",
+    "copy-code-button",
+    "todo"
+  ],
+  "pluginsConfig":{
+    "anchor-navigation-ex": {
+      "isRewritePageTitle": false,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
+    },
+    "simple-page-toc": {
+      "maxDepth": 3,
+      "skipFirstH1": true
+    },
+    "prism": {
+      "lang": {
+        "flow": "typescript"
+      },
+      "css": [
+        "prismjs/themes/prism-solarizedlight.css"
+      ],
+      "ignore": [
+        "mermaid",
+        "eval-js"
+      ]
+    },
+    "theme-default":{
+      "showLevel":true
+    },
+    "github":{
+      "url":"https://github.com/stavyan/stav-gitbook"
+    },
+    "sharing":{
+      "weibo":true,
+      "facebook":false,
+      "twitter":false,
+      "google":false,
+      "qq": true,
+      "all":[
+        "facebook",
+        "google",
+        "twitter",
+        "weibo",
+        "qq"
+      ]
+    },
+    "tbfed-pagefooter":{
+      "copyright":"Copyright © 雨果微校 2018",
+      "modify_label":"该文件修订时间：",
+      "modify_format":"YYYY-MM-DD HH:mm:ss"
+    },
+    "sectionx":{
+      "tag":"b"
+    },
+    "favicon":{
+      "shortcut":"favicon.ico",
+      "bookmark":"favicon.ico"
+    }
+  }
+}
