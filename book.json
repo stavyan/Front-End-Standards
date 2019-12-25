@@ -78,7 +78,7 @@
       ]
     },
     "tbfed-pagefooter":{
-      "copyright":"浙ICP备18042854号 Copyright © stavyan 2018",
+      "copyright":"<a href='http://www.beian.miit.gov.cn'>浙ICP备18042854号</a> Copyright © stavyan 2018",
       "modify_label":"该文件修订时间：",
       "modify_format":"YYYY-MM-DD HH:mm:ss"
     },
